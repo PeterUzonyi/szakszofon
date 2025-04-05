@@ -1,0 +1,51 @@
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100;
+}
+
+.menu-part {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: black;
+}
+
+.menu-part a:hover {
+    text-decoration: underline;
+}
+
+.menu-part a{
+    text-decoration: none;
+    color: black;
+}
+
+#jelenlegi {
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Oszlopok elosztása */
+    align-items: stretch; /* Oszlopok magassága */
+    height: 60%; /* Teljes magasság kitöltése */
+}
+
+.column {
+    width: 30%; /* Minden oszlop szélessége */
+    background-color: lightblue; /* Háttérszín */
+    padding: 20px; /* Párnázás */
+    text-align: center; /* Szöveg középre igazítása */
+    border: 1px solid #ddd; /* Keret */
+    border-radius: 10px; /* Ívelt sarkok */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Árnyék */
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
