@@ -10,9 +10,31 @@
 <body>
     <header>
         <div class="menu-container">
-            <div class="menu-part"><a href="index.html"><h1>Akustic musics</h1></a></div>
-            <div class="menu-part"><a href="deephouse.html"><h1>Deep house musics</h1></a></div>
-            <div id="jelenlegi" class="menu-part"><h1>Nightclub musics</h1></a></div>
+            <div class="navbar fixed-top d-lg-none">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-3">
+                        <h5 class="text-white h4"><a href="index.html">Akusztic zenék</a></h5>
+                        <h5 class="text-white h4"><a href="deephouse.html">Deephouse zenék</a></h5>
+                        <h5 class="text-white h4 active"><a href="nightclub.html">Nightclub zenék</a></h5>
+                    </div>
+                </div>
+                <nav class="navbar fixed-top navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+            <nav id="menu" class="navbar fixed-top d-lg-block d-none">
+                <ul>
+                    <li><a href="index.html">Akusztic zenék</a></li>
+                    <li><a href="deephouse.html">Deephouse zenék</a></li>
+                    <li class="active"><a href="nightclub.html">Nightclub zenék</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <hr>

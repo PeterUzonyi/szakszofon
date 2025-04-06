@@ -28,23 +28,6 @@
     background-color: lightblue;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between; /* Oszlopok elosztása */
-    align-items: stretch; /* Oszlopok magassága */
-    height: 60%; /* Teljes magasság kitöltése */
-}
-
-.column {
-    width: 30%; /* Minden oszlop szélessége */
-    background-color: lightblue; /* Háttérszín */
-    padding: 20px; /* Párnázás */
-    text-align: center; /* Szöveg középre igazítása */
-    border: 1px solid #ddd; /* Keret */
-    border-radius: 10px; /* Ívelt sarkok */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Árnyék */
-}
-
 img {
     height: 150px;
     width: 150px;
@@ -61,4 +44,52 @@ span{
 
 h3 {
     text-align: center;
+}
+
+header {
+    padding-bottom:  10%;
+}
+
+#navbarToggleExternalContent a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#navbarToggleExternalContent a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#menu {
+    background-color: #212529;
+}
+
+#menu ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#menu li {
+    text-align: center;
+}
+
+#menu a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+h5:first-of-type {
+    margin-top: 30px;
+}
+
+.active {
+    background-color: grey;
 }
