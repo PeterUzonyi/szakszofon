@@ -49,3 +49,16 @@ img {
     height: 150px;
     width: 150px;
 }
+
+
+span{
+    display: block;
+    text-align: center;
+    justify-content: center; /* Vízszintes középre igazítás */
+    align-items: center;
+    padding-top: 10%;
+}
+
+h3 {
+    text-align: center;
+}
